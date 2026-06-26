@@ -1,0 +1,21 @@
+{
+    "name": "usti/uas-sqa-nilai",
+    "description": "Project UAS Software Quality Assurance – Entri Nilai Mahasiswa USTI",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/NilaiHelper.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    }
+}
